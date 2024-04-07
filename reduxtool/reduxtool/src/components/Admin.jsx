@@ -17,7 +17,7 @@ const Admin = () => {
         <button style={{backgroundColor: "pink", width: '100px', height: "30px"}} onClick={() => delAccount(account.id)}> Delete Account </button>
         <button style={{backgroundColor: "pink", width: '100px', height: "30px"}} onClick={() => updateAccount({id: account.id,amount: 717})}> Update Account </button>
         </p>)}
-        <button style={{backgroundColor: "pink", width: '100px', height: "30px"}} onClick={() => addAccount(102, data.length+1)}> Get user account</button>
+        <button style={{backgroundColor: "pink", width: '100px', height: "30px"}} onClick={() => addAccount(102, data.length+1)}> Add user account</button>
     </div>
   )
 }
