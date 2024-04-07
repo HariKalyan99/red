@@ -17,10 +17,10 @@ const accountSlice = createSlice({
   },
   reducers: {
     increment: state => {
-      state.amount += 1
+      state.amount += 1;
     },
     decrement: state => {
-      state.amount -= 1
+      state.amount -= 1;
     },
     incrementByValue: (state, action) => {
         state.amount += action.payload
